@@ -9,7 +9,6 @@ import java.io.InputStream;
 import java.util.UUID;
 import etc.Json;
 import etc.Snap;
-import etc.User;
 
 public class Face extends Authentication{
     private User user;

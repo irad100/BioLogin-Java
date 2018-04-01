@@ -15,7 +15,6 @@ import com.microsoft.cognitive.speakerrecognition.contract.EnrollmentException;
 
 import etc.Json;
 import etc.Record;
-import etc.User;
 
 public class Voice extends Authentication{
     private User user;

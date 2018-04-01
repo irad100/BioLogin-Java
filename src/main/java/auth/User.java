@@ -1,4 +1,4 @@
-package etc;
+package auth;
 
 import jlibfprint.PrintData;
 

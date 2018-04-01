@@ -3,7 +3,7 @@ package gui;
 import auth.Face;
 import auth.Fingerprint;
 import auth.Voice;
-import etc.User;
+import auth.User;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

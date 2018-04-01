@@ -1,6 +1,5 @@
 package auth;
 import etc.Json;
-import etc.User;
 import jlibfprint.*;
 
 import java.io.IOException;
