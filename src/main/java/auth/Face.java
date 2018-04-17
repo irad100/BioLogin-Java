@@ -7,7 +7,8 @@ import com.microsoft.projectoxford.face.FaceServiceRestClient;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
-import etc.Json;
+
+import etc.FireBase;
 import etc.Snap;
 
 public class Face extends Authentication{
@@ -23,6 +24,7 @@ public class Face extends Authentication{
             InputStream inputSrc = new Snap().run();
             UUID profileID = client.detect(inputSrc, true, false, null)[0].faceId;
             user.setFace(profileID);
+            setEnabled(true);
             System.out.println("Face Found!");
             System.out.println("Enrolled Successfully!");
             return true;
@@ -34,9 +36,8 @@ public class Face extends Authentication{
         }
         return false;
     }
-    public boolean verify() {
+    public boolean verify(User user) {
         try {
-            User user = new Json().fromJson();
             UUID profileIDSrc = user.getFace();
             if (profileIDSrc == null)
                 throw new EnrollmentException(null);

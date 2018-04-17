@@ -1,5 +1,7 @@
 package auth;
 
+import etc.FireBase;
+
 public abstract class Authentication {
     private boolean enabled=false;
 
@@ -12,5 +14,5 @@ public abstract class Authentication {
     }
 
     public abstract boolean enroll();
-    public abstract boolean verify();
+    public abstract boolean verify(User user);
 }

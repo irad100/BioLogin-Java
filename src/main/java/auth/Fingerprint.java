@@ -1,8 +1,6 @@
 package auth;
-import etc.Json;
+import etc.FireBase;
 import jlibfprint.*;
-
-import java.io.IOException;
 
 public class Fingerprint extends Authentication {
     private User user;
@@ -39,6 +37,7 @@ public class Fingerprint extends Authentication {
         if(enrollResult != null && EnrollResultCode.COMPLETE.equals(enrollResult.getCode())) {
             PrintData printData = enrollResult.getPrintData();
             user.setFingerprint(printData);
+            setEnabled(true);
             System.out.println("Enrolled Successfully!");
             return true;
         }
@@ -46,9 +45,8 @@ public class Fingerprint extends Authentication {
 
     }
 
-    public boolean verify() {
+    public boolean verify(User user) {
         try {
-            User user = new Json().fromJson();
             PrintData printData = user.getFingerprint();
             if (printData == null)
                 throw new JlibFprint.EnrollException();
@@ -58,8 +56,6 @@ public class Fingerprint extends Authentication {
 
         } catch (JlibFprint.EnrollException e) {
             System.err.println("Enrollment hasn't been Completed");
-        } catch (IOException e) {
-            e.printStackTrace();
         }
         return false;
     }

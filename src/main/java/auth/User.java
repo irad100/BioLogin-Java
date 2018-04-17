@@ -1,5 +1,6 @@
 package auth;
 
+import etc.FireBase;
 import jlibfprint.PrintData;
 
 import java.util.UUID;

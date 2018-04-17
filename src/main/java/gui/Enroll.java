@@ -18,10 +18,6 @@ public class Enroll extends Application {
     protected Fingerprint fingerprint = new Fingerprint(user);
     protected Voice voice = new Voice(user);
 
-    public static void main(String[] args) {
-        launch(args);
-    }
-
     @Override
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Enroll.fxml"));

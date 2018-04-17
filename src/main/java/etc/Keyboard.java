@@ -1,5 +1,7 @@
 package etc;
 import java.awt.*;
+import java.io.IOException;
+import java.security.Key;
 
 import static java.awt.event.KeyEvent.*;
 
@@ -16,13 +18,12 @@ public class Keyboard {
         for (int i = 0; i < length; i++) {
             char character = characters.charAt(i);
             type(character);
+            robot.delay(5);
         }
-        robot.delay(5);
     }
 
     public void type(char character) {
         switch (character) {
-            case 'å': doType(VK_META, VK_TAB); break;
             case 'a': doType(VK_A); break;
             case 'b': doType(VK_B); break;
             case 'c': doType(VK_C); break;
@@ -138,4 +139,17 @@ public class Keyboard {
 
     }
 
+    public static void main(String[] args) {
+        new Thread(() -> {
+            try {
+                Keyboard k = new Keyboard();
+                //Runtime.getRuntime().exec("open /Applications/TextEdit.app");
+                Runtime.getRuntime().exec(new String[]{"/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession", "-suspend"});
+                Thread.sleep(10000);
+                k.type("iradaha3\n");
+            } catch (InterruptedException | IOException | AWTException e) {
+                e.printStackTrace();
+            }
+        }).start();
+    }
 }

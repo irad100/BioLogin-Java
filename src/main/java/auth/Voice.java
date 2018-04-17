@@ -13,10 +13,10 @@ import java.util.UUID;
 
 import com.microsoft.cognitive.speakerrecognition.contract.EnrollmentException;
 
-import etc.Json;
+import etc.FireBase;
 import etc.Record;
 
-public class Voice extends Authentication{
+public class Voice extends Authentication {
     private User user;
     private SpeakerVerificationClient client;
 
@@ -62,6 +62,7 @@ public class Voice extends Authentication{
                 i++;
             } while(voiceSrc.remainingEnrollments > 0);
             System.out.println("Enrolled Successfully!");
+            setEnabled(true);
             return true;
         } catch (CreateProfileException | GetProfileException | ResetEnrollmentsException | IOException | EnrollmentException e) {
             e.printStackTrace();
@@ -70,9 +71,8 @@ public class Voice extends Authentication{
     }
 
 
-    public boolean verify() {
+    public boolean verify(User user) {
         try {
-            User user = new Json().fromJson();
             UUID profileID = user.getVoice();
             if (!client.getProfile(profileID).enrollmentStatus.equals(EnrollmentStatus.ENROLLED))
                 throw new EnrollmentException("Not Enrolled");
