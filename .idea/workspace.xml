@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f8534cf-50c5-428f-8a84-421eb9cdd83f" name="Default" comment="Testin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etc/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/etc/FireBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/FireBase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4f8534cf-50c5-428f-8a84-421eb9cdd83f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/auth/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/auth/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/auth/Face.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/auth/Face.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/auth/Fingerprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/auth/Fingerprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/auth/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/auth/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/auth/Voice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/auth/Voice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/Crypto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/FileLocker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etc/FileLocker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/Json.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/etc/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/etc/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/SSH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/SSH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/etc/WebCamAppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/WebCamAppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gui/Enroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/Enroll.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,32 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/auth/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/etc/Keyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1613">
-              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+            <state relative-caret-position="48">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encryption.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/etc/Encryption.java">
+      <file leaf-file-name="NativeHookDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/etc/NativeHookDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -92,8 +65,8 @@
       <file leaf-file-name="Enroll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gui/Enroll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -157,6 +130,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>VK_MACSHIFT</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>VK_MAC_SHIFT</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -339,9 +320,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6092692468000" />
+        <entry key="$PROJECT_DIR$" value="6093479533000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2498617795" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1028015" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2958664235" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2600063248" />
       </map>
@@ -529,7 +510,6 @@
         <option value="$PROJECT_DIR$/src/main/java/etc/SSH.java" />
         <option value="$PROJECT_DIR$/src/main/java/etc/Json.java" />
         <option value="$PROJECT_DIR$/src/main/java/etc/Firebase.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/etc/Encryption.java" />
         <option value="$PROJECT_DIR$/src/main/java/etc/FileLocker.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/User.java" />
@@ -540,6 +520,9 @@
         <option value="$PROJECT_DIR$/src/main/java/auth/Voice.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/Face.java" />
         <option value="$PROJECT_DIR$/src/main/java/auth/Authentication.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/etc/KeyboardHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/etc/NativeHookDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/etc/Keyboard.java" />
       </list>
     </option>
@@ -564,9 +547,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -635,6 +615,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,23 +653,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Keyboard">
-    <configuration name="Authentication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="10" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <envs>
-        <env name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="auth.Authentication" />
-      <module name="biologin_main" />
-      <option name="VM_PARAMETERS" value="--illegal-access=warn" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Enroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="JLIBFPRINT_JNI" value="/usr/local/lib/libfprint_jni.so" />
@@ -697,17 +663,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Face" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auth.Face" />
-      <module name="biologin_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -728,8 +683,27 @@
       <module name="biologin_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="NativeHookDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="etc.NativeHookDemo" />
+      <module name="biologin_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="etc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="biologin" />
+      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -771,18 +745,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Enroll" />
-      <item itemvalue="Application.Authentication" />
-      <item itemvalue="Application.Face" />
       <item itemvalue="Application.Keyboard" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Groovy.build" />
+      <item itemvalue="Application.NativeHookDemo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Keyboard" />
+        <item itemvalue="Application.NativeHookDemo" />
+        <item itemvalue="Groovy.build" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Enroll" />
-        <item itemvalue="Application.Authentication" />
-        <item itemvalue="Application.Face" />
       </list>
     </recent_temporary>
   </component>
@@ -804,7 +778,8 @@
       <workItem from="1523640450012" duration="6258000" />
       <workItem from="1523943365109" duration="2209000" />
       <workItem from="1523946660265" duration="3587000" />
-      <workItem from="1523950421835" duration="1022000" />
+      <workItem from="1523950421835" duration="1156000" />
+      <workItem from="1524429623830" duration="4104000" />
     </task>
     <task id="LOCAL-00001" summary="Gradle Update">
       <created>1522604353012</created>
@@ -841,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522606018446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated System Structure">
+      <created>1523952153046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523952153046</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21144000" />
+    <option name="totallyTimeSpent" value="25382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -858,11 +840,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3284091" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886364" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3284091" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -871,18 +854,17 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284091" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2715655" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2742279" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="777" id="Documentation" order="5" side_tool="true" weight="0.32960597" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3284091" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -897,23 +879,15 @@
     <MESSAGE value="Gradle Update" />
     <MESSAGE value="All Files" />
     <MESSAGE value="Minor Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Update" />
+    <MESSAGE value="Updated System Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated System Structure" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Enroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/auth/Face.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/etc/Snap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1114,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/etc/Crypto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/etc/Json.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/etc/FileLocker.java">
@@ -1184,13 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Enroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1208,10 +1168,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gui/Enroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etc/KeyboardHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6570">
+          <caret line="474" lean-forward="true" selection-start-line="474" selection-end-line="474" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/etc/NativeHookDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/etc/Keyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
-          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="48">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>

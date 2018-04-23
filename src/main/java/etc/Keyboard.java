@@ -1,12 +1,11 @@
 package etc;
 import java.awt.*;
 import java.io.IOException;
-import java.security.Key;
 
 import static java.awt.event.KeyEvent.*;
 
 public class Keyboard {
-
+    static final int VK_MAC_SHIFT = 0x42;
     private Robot robot;
 
     public Keyboard() throws AWTException {
@@ -23,6 +22,7 @@ public class Keyboard {
     }
 
     public void type(char character) {
+        //
         switch (character) {
             case 'a': doType(VK_A); break;
             case 'b': doType(VK_B); break;
@@ -50,32 +50,32 @@ public class Keyboard {
             case 'x': doType(VK_X); break;
             case 'y': doType(VK_Y); break;
             case 'z': doType(VK_Z); break;
-            case 'A': doType(VK_SHIFT, VK_A); break;
-            case 'B': doType(VK_SHIFT, VK_B); break;
-            case 'C': doType(VK_SHIFT, VK_C); break;
-            case 'D': doType(VK_SHIFT, VK_D); break;
-            case 'E': doType(VK_SHIFT, VK_E); break;
-            case 'F': doType(VK_SHIFT, VK_F); break;
-            case 'G': doType(VK_SHIFT, VK_G); break;
-            case 'H': doType(VK_SHIFT, VK_H); break;
-            case 'I': doType(VK_SHIFT, VK_I); break;
-            case 'J': doType(VK_SHIFT, VK_J); break;
-            case 'K': doType(VK_SHIFT, VK_K); break;
-            case 'L': doType(VK_SHIFT, VK_L); break;
-            case 'M': doType(VK_SHIFT, VK_M); break;
-            case 'N': doType(VK_SHIFT, VK_N); break;
-            case 'O': doType(VK_SHIFT, VK_O); break;
-            case 'P': doType(VK_SHIFT, VK_P); break;
-            case 'Q': doType(VK_SHIFT, VK_Q); break;
-            case 'R': doType(VK_SHIFT, VK_R); break;
-            case 'S': doType(VK_SHIFT, VK_S); break;
-            case 'T': doType(VK_SHIFT, VK_T); break;
-            case 'U': doType(VK_SHIFT, VK_U); break;
-            case 'V': doType(VK_SHIFT, VK_V); break;
-            case 'W': doType(VK_SHIFT, VK_W); break;
-            case 'X': doType(VK_SHIFT, VK_X); break;
-            case 'Y': doType(VK_SHIFT, VK_Y); break;
-            case 'Z': doType(VK_SHIFT, VK_Z); break;
+            case 'A': doType(VK_MAC_SHIFT, VK_A); break;
+            case 'B': doType(VK_MAC_SHIFT, VK_B); break;
+            case 'C': doType(VK_MAC_SHIFT, VK_C); break;
+            case 'D': doType(VK_MAC_SHIFT, VK_D); break;
+            case 'E': doType(VK_MAC_SHIFT, VK_E); break;
+            case 'F': doType(VK_MAC_SHIFT, VK_F); break;
+            case 'G': doType(VK_MAC_SHIFT, VK_G); break;
+            case 'H': doType(VK_MAC_SHIFT, VK_H); break;
+            case 'I': doType(VK_MAC_SHIFT, VK_I); break;
+            case 'J': doType(VK_MAC_SHIFT, VK_J); break;
+            case 'K': doType(VK_MAC_SHIFT, VK_K); break;
+            case 'L': doType(VK_MAC_SHIFT, VK_L); break;
+            case 'M': doType(VK_MAC_SHIFT, VK_M); break;
+            case 'N': doType(VK_MAC_SHIFT, VK_N); break;
+            case 'O': doType(VK_MAC_SHIFT, VK_O); break;
+            case 'P': doType(VK_MAC_SHIFT, VK_P); break;
+            case 'Q': doType(VK_MAC_SHIFT, VK_Q); break;
+            case 'R': doType(VK_MAC_SHIFT, VK_R); break;
+            case 'S': doType(VK_MAC_SHIFT, VK_S); break;
+            case 'T': doType(VK_MAC_SHIFT, VK_T); break;
+            case 'U': doType(VK_MAC_SHIFT, VK_U); break;
+            case 'V': doType(VK_MAC_SHIFT, VK_V); break;
+            case 'W': doType(VK_MAC_SHIFT, VK_W); break;
+            case 'X': doType(VK_MAC_SHIFT, VK_X); break;
+            case 'Y': doType(VK_MAC_SHIFT, VK_Y); break;
+            case 'Z': doType(VK_MAC_SHIFT, VK_Z); break;
             case '`': doType(VK_BACK_QUOTE); break;
             case '0': doType(VK_0); break;
             case '1': doType(VK_1); break;
@@ -89,37 +89,37 @@ public class Keyboard {
             case '9': doType(VK_9); break;
             case '-': doType(VK_MINUS); break;
             case '=': doType(VK_EQUALS); break;
-            case '~': doType(VK_SHIFT, VK_BACK_QUOTE); break;
-            case '!': doType(VK_SHIFT, VK_1); break;
-            case '@': doType(VK_SHIFT, VK_2); break;
-            case '#': doType(VK_SHIFT, VK_3); break;
-            case '$': doType(VK_SHIFT, VK_4); break;
-            case '%': doType(VK_SHIFT, VK_5); break;
-            case '^': doType(VK_SHIFT, VK_6); break;
-            case '&': doType(VK_SHIFT, VK_7); break;
-            case '*': doType(VK_SHIFT, VK_8); break;
-            case '(': doType(VK_SHIFT, VK_9); break;
-            case ')': doType(VK_SHIFT, VK_0); break;
-            case '_': doType(VK_SHIFT, VK_MINUS); break;
-            case '+': doType(VK_SHIFT, VK_EQUALS); break;
+            case '~': doType(VK_MAC_SHIFT, VK_BACK_QUOTE); break;
+            case '!': doType(VK_MAC_SHIFT, VK_1); break;
+            case '@': doType(VK_MAC_SHIFT, VK_2); break;
+            case '#': doType(VK_MAC_SHIFT, VK_3); break;
+            case '$': doType(VK_MAC_SHIFT, VK_4); break;
+            case '%': doType(VK_MAC_SHIFT, VK_5); break;
+            case '^': doType(VK_MAC_SHIFT, VK_6); break;
+            case '&': doType(VK_MAC_SHIFT, VK_7); break;
+            case '*': doType(VK_MAC_SHIFT, VK_8); break;
+            case '(': doType(VK_MAC_SHIFT, VK_9); break;
+            case ')': doType(VK_MAC_SHIFT, VK_0); break;
+            case '_': doType(VK_MAC_SHIFT, VK_MINUS); break;
+            case '+': doType(VK_MAC_SHIFT, VK_EQUALS); break;
             case '\t': doType(VK_TAB); break;
             case '\n': doType(VK_ENTER); break;
             case '[': doType(VK_OPEN_BRACKET); break;
             case ']': doType(VK_CLOSE_BRACKET); break;
             case '\\': doType(VK_BACK_SLASH); break;
-            case '{': doType(VK_SHIFT, VK_OPEN_BRACKET); break;
-            case '}': doType(VK_SHIFT, VK_CLOSE_BRACKET); break;
-            case '|': doType(VK_SHIFT, VK_BACK_SLASH); break;
+            case '{': doType(VK_MAC_SHIFT, VK_OPEN_BRACKET); break;
+            case '}': doType(VK_MAC_SHIFT, VK_CLOSE_BRACKET); break;
+            case '|': doType(VK_MAC_SHIFT, VK_BACK_SLASH); break;
             case ';': doType(VK_SEMICOLON); break;
-            case ':': doType(VK_SHIFT, VK_SEMICOLON); break;
+            case ':': doType(VK_MAC_SHIFT, VK_SEMICOLON); break;
             case '\'': doType(VK_QUOTE); break;
             case '"': doType(VK_QUOTEDBL); break;
             case ',': doType(VK_COMMA); break;
-            case '<': doType(VK_SHIFT, VK_COMMA); break;
+            case '<': doType(VK_MAC_SHIFT, VK_COMMA); break;
             case '.': doType(VK_PERIOD); break;
-            case '>': doType(VK_SHIFT, VK_PERIOD); break;
+            case '>': doType(VK_MAC_SHIFT, VK_PERIOD); break;
             case '/': doType(VK_SLASH); break;
-            case '?': doType(VK_SHIFT, VK_SLASH); break;
+            case '?': doType(VK_MAC_SHIFT, VK_SLASH); break;
             case ' ': doType(VK_SPACE); break;
             default:
                 throw new IllegalArgumentException("Cannot type character " + character);
@@ -127,26 +127,22 @@ public class Keyboard {
     }
 
     private void doType(int... keyCodes) {
-        doType(keyCodes, 0, keyCodes.length);
-    }
-
-    private void doType(int[] keyCodes, int offset, int length) {
-        if (length != 0) {
-            robot.keyPress(keyCodes[offset]);
-            doType(keyCodes, offset + 1, length - 1);
-            robot.keyRelease(keyCodes[offset]);
+        for(int keyCode: keyCodes) {
+            robot.keyPress(keyCode);
         }
-
+        for(int keyCode: keyCodes) {
+            robot.keyRelease(keyCode);
+        }
     }
 
     public static void main(String[] args) {
         new Thread(() -> {
             try {
                 Keyboard k = new Keyboard();
-                //Runtime.getRuntime().exec("open /Applications/TextEdit.app");
-                Runtime.getRuntime().exec(new String[]{"/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession", "-suspend"});
-                Thread.sleep(10000);
-                k.type("iradaha3\n");
+                Runtime.getRuntime().exec("open /Applications/TextEdit.app");
+                //Runtime.getRuntime().exec(new String[]{"/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession", "-suspend"});
+                Thread.sleep(500);
+                k.type("ABCDEfghijk");
             } catch (InterruptedException | IOException | AWTException e) {
                 e.printStackTrace();
             }
