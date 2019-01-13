@@ -1,4 +1,8 @@
 # BioLogin-Dev
+* This Is the Development Version of the BioLogin Project *
+
+BioLogin is set to develop a cross-platform solution for multiple biometric authentication methods to be used on Computer Login, File Locking and Password Management. My Mission is to extinct the need of typing an un-secure password and getting towards the new world of biometric authentication.
+
 My goal in this project was to use the Microsoft Azure services for biometric algorithms (because they already exist in the market) and connect them to one product that will support the operating system I created and a variety of other operating systems (macOS, Windows).
 
 My project allows these operating systems to connect to the computer and lock files.
