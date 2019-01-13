@@ -1,5 +1,5 @@
 # BioLogin-Dev
-My goal in the project was to use the Microsoft Azure services for biometric algorithms (because they already exist in the market) and connect them to one product that will support the operating system I created and a variety of other operating systems (macOS, Windows).
+My goal in this project was to use the Microsoft Azure services for biometric algorithms (because they already exist in the market) and connect them to one product that will support the operating system I created and a variety of other operating systems (macOS, Windows).
 
 My project allows these operating systems to connect to the computer and lock files.
 I built an inheritance tree that includes: Authentication, which includes Enroll and Verify functions, and the inheriting classes from general authentication: face scanning, voice scanning, and fingerprint scanning.
